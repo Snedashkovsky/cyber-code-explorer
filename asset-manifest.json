@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.91733abf.chunk.css",
-    "main.js": "/static/js/main.9e34f260.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.9ed24438.js",
-    "static/css/2.10a4106b.chunk.css": "/static/css/2.10a4106b.chunk.css",
-    "static/js/2.ed428b1a.chunk.js": "/static/js/2.ed428b1a.chunk.js",
-    "index.html": "/index.html",
-    "precache-manifest.379334c5f9fe8e15a614d23fb03c945e.js": "/precache-manifest.379334c5f9fe8e15a614d23fb03c945e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.ed428b1a.chunk.js.LICENSE.txt": "/static/js/2.ed428b1a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/background.7435b81a.jpg"
+    "main.css": "https://snedashkovsky.github.io/juno-codes/static/css/main.9daf8b6a.chunk.css",
+    "main.js": "https://snedashkovsky.github.io/juno-codes/static/js/main.385f6c82.chunk.js",
+    "main.js.map": "https://snedashkovsky.github.io/juno-codes/static/js/main.385f6c82.chunk.js.map",
+    "runtime-main.js": "https://snedashkovsky.github.io/juno-codes/static/js/runtime-main.a9a16830.js",
+    "runtime-main.js.map": "https://snedashkovsky.github.io/juno-codes/static/js/runtime-main.a9a16830.js.map",
+    "static/css/2.8ba42a9a.chunk.css": "https://snedashkovsky.github.io/juno-codes/static/css/2.8ba42a9a.chunk.css",
+    "static/js/2.e12db9aa.chunk.js": "https://snedashkovsky.github.io/juno-codes/static/js/2.e12db9aa.chunk.js",
+    "static/js/2.e12db9aa.chunk.js.map": "https://snedashkovsky.github.io/juno-codes/static/js/2.e12db9aa.chunk.js.map",
+    "index.html": "https://snedashkovsky.github.io/juno-codes/index.html",
+    "precache-manifest.a13dd5544dcc697b6eda142f92293fff.js": "https://snedashkovsky.github.io/juno-codes/precache-manifest.a13dd5544dcc697b6eda142f92293fff.js",
+    "service-worker.js": "https://snedashkovsky.github.io/juno-codes/service-worker.js",
+    "static/css/2.8ba42a9a.chunk.css.map": "https://snedashkovsky.github.io/juno-codes/static/css/2.8ba42a9a.chunk.css.map",
+    "static/css/main.9daf8b6a.chunk.css.map": "https://snedashkovsky.github.io/juno-codes/static/css/main.9daf8b6a.chunk.css.map",
+    "static/js/2.e12db9aa.chunk.js.LICENSE.txt": "https://snedashkovsky.github.io/juno-codes/static/js/2.e12db9aa.chunk.js.LICENSE.txt",
+    "static/media/index.css": "https://snedashkovsky.github.io/juno-codes/static/media/background.7435b81a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ed24438.js",
-    "static/css/2.10a4106b.chunk.css",
-    "static/js/2.ed428b1a.chunk.js",
-    "static/css/main.91733abf.chunk.css",
-    "static/js/main.9e34f260.chunk.js"
+    "static/js/runtime-main.a9a16830.js",
+    "static/css/2.8ba42a9a.chunk.css",
+    "static/js/2.e12db9aa.chunk.js",
+    "static/css/main.9daf8b6a.chunk.css",
+    "static/js/main.385f6c82.chunk.js"
   ]
 }
