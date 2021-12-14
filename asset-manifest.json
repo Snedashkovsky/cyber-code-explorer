@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://snedashkovsky.github.io/cyber-code-explorer/static/css/main.7da7ec08.chunk.css",
+    "main.css": "https://snedashkovsky.github.io/cyber-code-explorer/static/css/main.8b78b516.chunk.css",
     "main.js": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/main.0088914f.chunk.js",
     "main.js.map": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/main.0088914f.chunk.js.map",
     "runtime-main.js": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/runtime-main.2ee786b4.js",
@@ -9,18 +9,17 @@
     "static/js/2.24b3e3df.chunk.js": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/2.24b3e3df.chunk.js",
     "static/js/2.24b3e3df.chunk.js.map": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/2.24b3e3df.chunk.js.map",
     "index.html": "https://snedashkovsky.github.io/cyber-code-explorer/index.html",
-    "precache-manifest.62f99bcbafc779bf885bfc29d11b6bc4.js": "https://snedashkovsky.github.io/cyber-code-explorer/precache-manifest.62f99bcbafc779bf885bfc29d11b6bc4.js",
+    "precache-manifest.55f3f58ca51cc5805d77d36616ae4aa0.js": "https://snedashkovsky.github.io/cyber-code-explorer/precache-manifest.55f3f58ca51cc5805d77d36616ae4aa0.js",
     "service-worker.js": "https://snedashkovsky.github.io/cyber-code-explorer/service-worker.js",
     "static/css/2.8ba42a9a.chunk.css.map": "https://snedashkovsky.github.io/cyber-code-explorer/static/css/2.8ba42a9a.chunk.css.map",
-    "static/css/main.7da7ec08.chunk.css.map": "https://snedashkovsky.github.io/cyber-code-explorer/static/css/main.7da7ec08.chunk.css.map",
-    "static/js/2.24b3e3df.chunk.js.LICENSE.txt": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/2.24b3e3df.chunk.js.LICENSE.txt",
-    "static/media/index.css": "https://snedashkovsky.github.io/cyber-code-explorer/static/media/background.7435b81a.jpg"
+    "static/css/main.8b78b516.chunk.css.map": "https://snedashkovsky.github.io/cyber-code-explorer/static/css/main.8b78b516.chunk.css.map",
+    "static/js/2.24b3e3df.chunk.js.LICENSE.txt": "https://snedashkovsky.github.io/cyber-code-explorer/static/js/2.24b3e3df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ee786b4.js",
     "static/css/2.8ba42a9a.chunk.css",
     "static/js/2.24b3e3df.chunk.js",
-    "static/css/main.7da7ec08.chunk.css",
+    "static/css/main.8b78b516.chunk.css",
     "static/js/main.0088914f.chunk.js"
   ]
 }
