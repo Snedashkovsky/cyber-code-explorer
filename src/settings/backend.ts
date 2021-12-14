@@ -66,7 +66,7 @@ const spacepussySettings: BackendSettings = {
       },
     ],
     features: ["stargate", "ibc-transfer", "cosmwasm"],
-    explorerUrlToTx: "https://cyb.ai/network/bostrom/tx/{txHash}",
+    explorerUrlToTx: "https://rebyc.cyber.page/network/bostrom/tx/{txHash}",
   },
 };
 
