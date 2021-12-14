@@ -25,7 +25,7 @@ const musselnetSettings: BackendSettings = {
   gasPrice: GasPrice.fromString("0.25ucosm"),
 };
 
-const pebblenetSettings: BackendSettings = {
+const spacepussySettings: BackendSettings = {
   nodeUrls: ["https://rpc.space-pussy-1.cybernode.ai"],
   denominations: ["boot"],
   addressPrefix: "bostrom",
@@ -66,7 +66,7 @@ const pebblenetSettings: BackendSettings = {
       },
     ],
     features: ["stargate", "ibc-transfer", "cosmwasm"],
-    explorerUrlToTx: "https://block-explorer.pebblenet.cosmwasm.com/transactions/{txHash}",
+    explorerUrlToTx: "https://cyb.ai/network/bostrom/tx/{txHash}",
   },
 };
 
@@ -120,7 +120,7 @@ const uniSettings: BackendSettings = {
 const knownBackends: Partial<Record<string, BackendSettings>> = {
   devnetStargate: devnetStargateSettings,
   musselnet: musselnetSettings,
-  pebblenet: pebblenetSettings,
+  spacepussy: spacepussySettings,
   uninet: uniSettings,
 };
 
