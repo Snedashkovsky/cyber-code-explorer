@@ -7,7 +7,7 @@ import { jsonInputStyle } from "../../ui-utils/jsonInput";
 import { Result } from "./ContractPage";
 
 // eslint-disable-next-line @typescript-eslint/camelcase
-const queryPlaceholder = { balance: { address: "juno14vhcdsyf83ngsrrqc92kmw8q9xakqjm0ff2dpn" } };
+const queryPlaceholder = { balance: { address: "bostrom1sm9kwrthaua2ywrtkwfswa7mr7cr4f5pupjgln" } };
 
 interface Props {
   readonly contractAddress: string;

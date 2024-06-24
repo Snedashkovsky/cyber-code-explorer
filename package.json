@@ -10,14 +10,15 @@
     "base-start": "react-scripts start",
     "start-stargate": "REACT_APP_BACKEND=devnetStargate yarn base-start",
     "start-musselnet": "REACT_APP_BACKEND=musselnet yarn base-start",
-    "start-pebblenet": "REACT_APP_BACKEND=pebblenet yarn base-start",
+    "start-spacepussy": "REACT_APP_BACKEND=spacepussy yarn base-start",
     "start-uninet": "REACT_APP_BACKEND=uninet yarn base-start",
-    "start": "yarn start-uninet",
-    "build": "react-scripts build",
+    "start": "yarn start-spacepussy",
+    "base-build": "react-scripts build",
+    "build": "REACT_APP_BACKEND=spacepussy yarn base-build",
     "test": "react-scripts test",
     "lint": "eslint -c .eslintrc.js --max-warnings 0 'src/**/*.ts{,x}'",
     "lint-fix": "eslint -c .eslintrc.js 'src/**/*.ts{,x}' --fix",
-    "deploy": "PUBLIC_URL=https://cosmwasm.github.io/code-explorer/ REACT_APP_BACKEND=pebblenet yarn build && gh-pages -d build"
+    "deploy": "PUBLIC_URL=https://snedashkovsky.github.io/cyber-code-explorer/ REACT_APP_BACKEND=spacepussy yarn build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

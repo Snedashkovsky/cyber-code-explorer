@@ -25,48 +25,48 @@ const musselnetSettings: BackendSettings = {
   gasPrice: GasPrice.fromString("0.25ucosm"),
 };
 
-const pebblenetSettings: BackendSettings = {
-  nodeUrls: ["https://rpc.pebblenet.cosmwasm.com"],
-  denominations: ["upebble"],
-  addressPrefix: "wasm",
-  gasPrice: GasPrice.fromString("0.25ucosm"),
+const spacepussySettings: BackendSettings = {
+  nodeUrls: ["https://rpc.space-pussy-1.cybernode.ai"],
+  denominations: ["boot"],
+  addressPrefix: "bostrom",
+  gasPrice: GasPrice.fromString("0.01boot"),
   keplrChainInfo: {
-    rpc: "https://rpc.pebblenet.cosmwasm.com",
-    rest: "https://lcd.pebblenet.cosmwasm.com",
-    chainId: "pebblenet-1",
-    chainName: "Wasm Pebblenet",
+    rpc: "https://rpc.space-pussy-1.cybernode.ai",
+    rest: "https://lcd.space-pussy-1.cybernode.ai",
+    chainId: "space-pussy-1",
+    chainName: "Space Pussy",
     stakeCurrency: {
-      coinDenom: "PEBBLE",
-      coinMinimalDenom: "upebble",
-      coinDecimals: 6,
+      coinDenom: "BOOT",
+      coinMinimalDenom: "BOOT",
+      coinDecimals: 0,
     },
     bip44: {
       coinType: 118,
     },
     bech32Config: {
-      bech32PrefixAccAddr: "wasm",
-      bech32PrefixAccPub: "wasmpub",
-      bech32PrefixValAddr: "wasmvaloper",
-      bech32PrefixValPub: "wasmvaloperpub",
-      bech32PrefixConsAddr: "wasmvalcons",
-      bech32PrefixConsPub: "wasmvalconspub",
+      bech32PrefixAccAddr: "bostrom",
+      bech32PrefixAccPub: "bostrompub",
+      bech32PrefixValAddr: "bostromvaloper",
+      bech32PrefixValPub: "bostromvaloperpub",
+      bech32PrefixConsAddr: "bostromvalcons",
+      bech32PrefixConsPub: "bostromvalconspub",
     },
     currencies: [
       {
-        coinDenom: "PEBBLE",
-        coinMinimalDenom: "upebble",
-        coinDecimals: 6,
+        coinDenom: "BOOT",
+        coinMinimalDenom: "BOOT",
+        coinDecimals: 0,
       },
     ],
     feeCurrencies: [
       {
-        coinDenom: "PEBBLE",
-        coinMinimalDenom: "upebble",
-        coinDecimals: 6,
+        coinDenom: "BOOT",
+        coinMinimalDenom: "BOOT",
+        coinDecimals: 0,
       },
     ],
     features: ["stargate", "ibc-transfer", "cosmwasm"],
-    explorerUrlToTx: "https://block-explorer.pebblenet.cosmwasm.com/transactions/{txHash}",
+    explorerUrlToTx: "https://rebyc.cyber.page/network/bostrom/tx/{txHash}",
   },
 };
 
@@ -120,7 +120,7 @@ const uniSettings: BackendSettings = {
 const knownBackends: Partial<Record<string, BackendSettings>> = {
   devnetStargate: devnetStargateSettings,
   musselnet: musselnetSettings,
-  pebblenet: pebblenetSettings,
+  spacepussy: spacepussySettings,
   uninet: uniSettings,
 };
 
